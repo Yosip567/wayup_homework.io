@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+h2 {
+	font-size: 30px;
+	font-weight: 700;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.btn {
+	font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	text-decoration: none;
+	color: #000;
+	background: #ffd429;
+	padding: 22px 25px;
+	display: inline-block;
+	border: 0;
+}
+
+
+.header {
+	color: #fff;
+	background: rgba(78,190,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,190,254,1)), color-stop(100%, rgba(55,143,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,190,254,1) 0%, rgba(55,143,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1 );
+}
+.header .wayup-logo {
+	display: block;
+	padding: 60px 0 35px;
+	align-items:center;
+}
+.header .header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding-top: 50px;
+	padding-bottom: 105px;
+}
+.header h1 {
+	font-size: 37px;
+	font-weight: 700;
+	width: 570px;
+	
+}
+.header h1 span {
+	font-size: 59px;
+}
+.header p {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	width: 405px;
+	padding: 45px 0;
+}
+
+.header .travel-img {
+	width: 525px;
+	height: 525px;
+}
+
+
+.advantages-section {
+	padding: 110px 0;
+	background-color: #fff;
+	text-align: center;
+}
+.advantages-section .adv-container {
+	padding-top: 75px;
+	display: flex;
+	justify-content: space-between;
+}
+.advantages-section .adv-content {
+	width: 288px;
+	align-items: flex-end;
+}
+.advantages-section h3 {
+	padding: 10px 0 15px;
+	font-size: 19px;
+	font-weight: 700;
+}
+.advantages-section p {
+	font-size: 15px;
+}
+
+
+.form-section {
+	padding: 100px 0;
+	background-color: #ecf2f8;
+	text-align: center;
+}
+.form-section .form-container {
+	padding-top: 55px;
+	width: 340px;
+	margin: 0 auto;
+}
+.form-section .form-container * {
+	
+}
+.form-section .form-container input {
+	margin-bottom: 15px !important;
+	display: block;
+	margin: 0 auto;
+	font-size: 15px;
+	padding: 18px 22px;
+	width: 100%;
+	border-radius: 3px;
+	border: 1px solid #bbbbbb;
+}
+.form-section .form-container .btn {
+	width: 385px;
+
+}
+
+
+.footer {
+	background-color: #164d7a;
+}
+.footer p {
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding: 60px 0;
+	color: #fff;
+}
