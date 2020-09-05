@@ -1,1 +1,0 @@
-# wayup_homework.io
