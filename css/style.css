@@ -68,11 +68,12 @@ h2 {
 	padding-top: 50px;
 	padding-bottom: 105px;
 }
+.header .header-text {
+
+}
 .header h1 {
 	font-size: 37px;
 	font-weight: 700;
-	width: 570px;
-	
 }
 .header h1 span {
 	font-size: 59px;
@@ -80,7 +81,6 @@ h2 {
 .header p {
 	font-size: 16px;
 	font-family: 'Open Sans', sans-serif;
-	width: 405px;
 	padding: 45px 0;
 }
 
@@ -152,4 +152,81 @@ h2 {
 	text-align: center;
 	padding: 60px 0;
 	color: #fff;
+}
+
+
+
+/*Responsive*/
+
+/* 1200px - 992px */
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+}
+
+/* 992px - 768px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.header .header-content {
+		flex-direction: column;
+		text-align: center;
+		padding-top: 0;
+	}
+	.header .travel-img {
+		order: 1;
+		width: 425px;
+    	height: 425px;
+	}
+	.header .header-text {
+		order: 2;
+	}
+}
+
+/* 768px - 576px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.advantages-section .adv-container {
+		flex-direction: column;
+	}
+	.adv-container .adv-content {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+}
+
+/* 576зчpx - 460px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.form-section .form-container {
+	    width: 290px;
+	}
+	.form-section .form-container .btn {
+	    width: 335px;
+	}
+	.header h1 {
+	    font-size: 34px;
+	}.header h1 span {
+	    font-size: 34px;
+	}
+}
+
+/* 460зчpx - 0px */
+@media screen and (max-width: 460px) {
+	.form-section .form-container {
+	    width: 220px;
+	}
+	.form-section .form-container .btn {
+	    width: 265px;
+	}
+	.header .travel-img {
+    width: 375px;
+    height: 375px;
+}
 }
