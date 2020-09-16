@@ -23,6 +23,7 @@ time, mark, audio, video {
 body {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 400;
+	overflow-x: hidden;
 }
 h2 {
 	font-size: 30px;
@@ -44,6 +45,9 @@ h2 {
 	border: 0;
 }
 
+.animated {
+	opacity: 0;
+}
 
 .header {
 	color: #fff;
