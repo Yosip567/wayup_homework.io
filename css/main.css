@@ -13,6 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
 	background: linear-gradient(90deg, #4EBEFE 0%, #378FD9 100%);
+<<<<<<< HEAD
 	color: #fff;
 }
 
@@ -24,6 +25,19 @@ header {
 
 header .container {
 	padding: 60px 0;
+=======
+	height: 827px;
+	color: #fff;
+}
+
+section {
+	padding: 100px 0;
+}
+
+.container {
+	width: 1100px;
+	margin: 0 auto;
+>>>>>>> a38618eb9bff6616cc79388c07822d9c65f23852
 }
 
 .wrapper {
@@ -31,7 +45,11 @@ header .container {
 }
 
 .logo {
+<<<<<<< HEAD
 	margin: 0 0 60px;
+=======
+	margin: 60px 0;
+>>>>>>> a38618eb9bff6616cc79388c07822d9c65f23852
 }
 
 h1 {
@@ -71,7 +89,10 @@ h1, h2, h3 {
 	text-decoration: none;
 	color: #000;
 	font-size: 15px;
+<<<<<<< HEAD
 	display: inline-block;
+=======
+>>>>>>> a38618eb9bff6616cc79388c07822d9c65f23852
 }
 
 .futures {
@@ -118,6 +139,7 @@ h1, h2, h3 {
 footer {
 	background: #164D7A;
 	padding: 42px 0;
+<<<<<<< HEAD
 }
 footer p {
 	text-align: center;
@@ -217,4 +239,11 @@ footer p {
 	footer p {
 		font-size: 14px;
 	}
+=======
+}
+footer p {
+	text-align: center;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+>>>>>>> a38618eb9bff6616cc79388c07822d9c65f23852
 }
